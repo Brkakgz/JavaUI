@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="FormIcon.png">
+        <title>
+            Form Uygulaması
+        </title>
+    </head>
+
+    <body style="background-color: #B4B4B8;">
+        <div style="background-color: whitesmoke; border-style:outset ;border-color: black; border-radius: 5px;display: flex; justify-content: center; align-items: center ; width: 20% ;padding: 10px; position: absolute;; left: 40%; right: 50%;top: 30%;">
+<form>
+    <div style="margin-top: 10px; margin-bottom: 10px;" >
+        <label stylefor="username"> Kullanıcı Adı: </label><br>
+        <input type="text" id="username" placeholder="Kullanıcı Adı"><br>
+    </div style="margin-top: 10px; margin-bottom: 10px;">
+    <div style="margin-top: 10px; margin-bottom: 10px;">
+        <label for="password">Parola:</label><br>
+        <input type="password" id="password" placeholder="Parola">
+    </div>
+
+    <div style ="margin-top: 10px; margin-bottom: 10px;">
+        <label for="choose" aria-placeholder="Seçiniz"> </label>
+        <select>
+            <option value="Seçiniz"> Seçiniz</option>
+            <option value="Öğrenci">Öğrenci</option>
+            <option value="Öğretmen">Öğretmen</option>
+            <option value="Admin">Admin</option>
+
+        </select>
+    </div>
+
+    <div style = margin:10px>
+        <input type ="checkbox" id="rememberMe">
+        <label for="rememberMe">Beni Hatırla</label>
+
+        <button style="background-color: rgb(52, 191, 255);margin-left: 10px;";type="button" onclick="alert('Giriş Yaptınız...')">Giriş </button>
+    </div>
+
+</form>
+        </div>
+    </body>
+</html>
